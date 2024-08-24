@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'roboto' sans-serif;
+     scroll-behavior:smooth;
+}
+header{
+    width:100%;
+    background-color:white;
+    border-bottom:white;
+    position:fixed;
+    z-index:1000;
+}
+.container{
+    width:900px;
+    margin:0px auto;
+    padding:10px 0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+a{
+text-decoration:none;
+color:black;
+}
+.logo img{
+    width:34px;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+nav{
+    display:flex;
+    column-gap:20px;
+}
+main{
+    margin-top:20px;
+    width:900px;
+    margin:0 auto;
+    padding:0px 20px;
+}
+.hero{
+    position:relative;
+    top:60px;
+   
+}
+.hero-banner{
+    width:100%;
+    height:300px;
+   
+}
+.hero-banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.hero-avatar{
+    width:160px;
+    height:160px;
+    position:absolute;
+    bottom:-80px;
+    left:20px;
+}
+.hero-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
+}
+.introduction{
+   position:relative;
+   top:150px;
+}
+.intro-name{
+    font-size:50px;
+    font-weight:500px;
+    margin-bottom:5px;
+}
+.about{
+    position:relative;
+    top:90px;
+}
+.about-desc{
+    line-height:30px;
+}
+.about h1{
+    margin-bottom:5px;
+}
+.experience{ 
+  position:relative;
+  top:190px;
+}
+.ex-item{
+    margin-top:30px;
+    display:flex;
+}
+.ex-item-img img{
+    width:48px;
+    height:48px;
+}
+.ex-item-img{
+    width:15%;
+    
+}
+.desc{
+    padding:0px 30px;
+}
+.role{
+    font-size:20px;
+    font-weight:800;
+}
+.name{
+    font-size:20px;
+    color:#464646;
+}
+.education{
+    position:relative;
+    top:230px;
+}
+.education-item{
+    margin-top:50px;
+    display:flex; 
+}
+.education-item-img{
+    width:80px;
+    height:48px;
+}
+.education-item-img img{
+    width:50px;
+}
+.education-name{
+    font-size:20px;
+    font-weight:800;
+    margin-bottom:10px;
+}
+.college-name, .percentage, .duration{
+    font-size:14px;
+    color:#464646;
+    font-weight:100;
+}
+.contact{
+    position:relative;
+    top:250px;
+}
+.contact-details{
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+a img{
+    width:10px;
+}
+.contact-details a:hover{
+    text-decoration:underline;
+    color:blue;
+}
+p img{
+    width:10px;
+}
+.one{
+    text-align:center;
+    position:relative;
+    top:350px;
+}
